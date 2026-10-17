@@ -11,7 +11,7 @@ public class ShootingTeleOp extends OpMode {
 
     // Ticks per revolution of the motor shaft
     static final double Flywheel_TPR = 28.0;
-    static final double Feed_TPR     = 28.0 * (84.0 / 29.0);  // 3:1 cartridge (gear ratio) for now, ratio still being tested
+    static final double Feed_TPR     = 28.0 * 5.0;  // 5:1 gear ratio (140.0 ticks per revolution)
 
     // Shooting speed. D-pad up/down changes the speed whenever its live and needs to be tested. Can finalise later
     double Target_RPM = 3000;
